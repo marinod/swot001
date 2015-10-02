@@ -37,6 +37,6 @@ void Main()
 	}
 	else if (leeftijd > 125)
 	{
-		"vanmpier".Dump();
+		"gestorvene".Dump();
 	}
 }
