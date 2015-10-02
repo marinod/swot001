@@ -40,4 +40,4 @@ void Main()
 		"gestorvene".Dump();
 	}
 }
-// welkom als je dit nog beter kan coderen
+// welkom als je dit nog beter (korter) kan coderen
