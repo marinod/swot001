@@ -4,7 +4,7 @@ void Main()
 
 	if (getal % 3 == 0) "is deelbaar door 3, rest 0".Dump();
 	else if (getal % 3 != 0)
-		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 3 \n\r"); // \n\r breal line
+		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 3 \n\r"); // \n\r break line
 
 	if (getal % 5 == 0) "is deelbaar door 5, rest 0".Dump();
 	else if (getal % 5 != 0)
