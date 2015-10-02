@@ -1,0 +1,42 @@
+void Main()
+{
+	int leeftijd = int.Parse(Util.ReadLine());
+	Console.Write((leeftijd).ToString() + " is de leeftijd \n\r van deze \n\r");
+
+	if (leeftijd <= 2)
+	{
+		"baby".Dump();
+	}
+	else if (leeftijd <= 4)
+	{
+		"peuter".Dump();
+	}
+	else if (leeftijd <= 12)
+	{
+		"puber".Dump();
+	}
+	else if (leeftijd <= 16)
+	{
+		"tiener".Dump();
+	}
+	else if (leeftijd <= 25)
+	{
+		"jongvolwassene".Dump();
+	}
+	else if (leeftijd <= 65)
+	{
+		"volwassene".Dump();
+	}
+	else if (leeftijd <= 80)
+	{
+		"gepensioneerde".Dump();
+	}
+	else if (leeftijd <= 125)
+	{
+		"bijna ten dode opgeschrevene".Dump();
+	}
+	else if (leeftijd > 125)
+	{
+		"vanmpier".Dump();
+	}
+}
