@@ -4,14 +4,21 @@ void Main()
 
 	if (getal % 3 == 0) "is deelbaar door 3, rest 0".Dump();
 	else if (getal % 3 != 0)
-		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 3 \n\r");
+		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 3 \n\r"); // \n\r breal line
 
 	if (getal % 5 == 0) "is deelbaar door 5, rest 0".Dump();
 	else if (getal % 5 != 0)
-		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 5 \n\r");
+		Console.Write((getal % 5).ToString() + " als restwaarde na deling van het getal door 5 \n\r");
 
 	if (getal % 7 == 0) "is deelbaar door 7, rest 0".Dump();
 	else if (getal % 7 != 0)
-		Console.Write((getal % 3).ToString() + " als restwaarde na deling van het getal door 7");
+		Console.Write((getal % 7).ToString() + " als restwaarde na deling van het getal door 7 \n\r");
+		
+	if ((getal % 3 == 0)&&(getal % 5 == 0)&&(getal % 7 == 0)) "is deelbaar door 3 en 5 en 7, rest 0".Dump();
+	// voorbeeld neem een getal 105 of veelvoud
+	
+	else if ((getal % 3 != 0)&&(getal % 5 != 0)&&(getal % 7 != 0)) 
+		Console.Write ((getal) + " is niet deelbaar door 3 en 5 en 7 \n\r"); 
+	// neem voorbeeld 2 of 4 of 64 of 11111111 OF 22222222 :-)..	
 
 }
