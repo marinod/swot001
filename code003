@@ -1,0 +1,23 @@
+void Main()
+{
+	int getal = 40;
+
+	if (getal > 80)
+	{
+		Console.Write ((getal).ToString() + " is groter dan 80 \n\r"); 
+	}
+	else if (getal > 60)
+
+	{
+	
+		Console.Write((getal).ToString() + " is groter dan 60 \n\r"); 
+	}
+	else if (getal == 60)
+	{
+		Console.Write((getal).ToString() + " is gelijk aan 60 \n\r"); // \n\r break line
+	}
+	else
+	{
+		Console.Write((getal).ToString() + " is kleiner dan 60 \n\r"); // \n\r break line
+	}
+}
